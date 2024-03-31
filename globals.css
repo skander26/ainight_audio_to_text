@@ -1,0 +1,40 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%; /* Set body width to match the parent */
+}
+
+/* Match parent's dimensions */
+.TV {
+  background-color: #a4c3b2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%; /* Match the parent's width */
+  height: 100%; /* Match the parent's height */
+}
+
+.TV .overlap-wrapper {
+  background-color: #a4c3b2;
+  width: 100%; /* Match the parent's width */
+  height: 100%; /* Match the parent's height */
+  
+}
+
+.TV .overlap {
+  position: relative;
+  height: 100%; /* Match the parent's height */
+  background-image: url(./img/vector-3.svg);
+  background-size: 100% 100%;
+}
+
+.TV .overlap-group {
+  position: absolute;
+  width: 100%; /* Match the parent's width */
+  height: 100%; /* Match the parent's height */
+  top: 0;
+  left: 0;
+  background-image: url(./img/vector-6.svg);
+  background-size: 100% 100%;
+}

@@ -1,0 +1,145 @@
+.TV {
+  background-color: #a4c3b2;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center vertically */
+  width: 100%;
+}
+.TV .div .flags {
+  display: block;
+  flex-direction: column; /* Align children vertically */
+  justify-content: center;
+  align-items: end;
+  width: 10000%;
+}
+
+
+.TV .overlap {
+  position: absolute;
+  width: 980px;
+  height: 658px;
+  top: 0;
+  left: 0;
+}
+
+.TV .overlap-group {
+  position: absolute;
+  
+  width: 646px;
+  height: 658px;
+  top: 0;
+  margin-left: 0px;
+  left: 0;
+}
+
+.TV .overlap-2 {
+  position: absolute;
+  margin-left: 100px;
+  top: 0;
+  left: 0;
+}
+
+.TV .vector {
+  position: absolute;
+  width: 384px;
+  height: 658px;
+  top: 0;
+  left: 0;
+}
+
+.TV .RY-TALK {
+  position: absolute;
+  width: 99px;
+  top: 20px;
+  left: 19px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #c8d5d5;
+  font-size: 34px;
+  letter-spacing: 0;
+  line-height: 49px;
+}
+
+.TV .flag-of-france {
+  transition: transform 1s; /* Fixed syntax */
+
+  position: relative;
+  width: 340px;
+  height: 219px;
+  top: 141px;
+  left: 300px;
+  object-fit: cover;
+}
+.TV .flag-of-france:hover {
+  transition: transform 1s; /* Fixed syntax */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adjust shadow properties as needed */
+}
+.TV .flag-of-the-united:hover {
+  transition: transform 1s; /* Fixed syntax */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adjust shadow properties as needed */
+}
+
+
+
+
+.TV .ARROW {
+  position: absolute;
+  width: 196px;
+  height: 276px;
+  top: 351px;
+  left: 349px;
+}
+
+
+
+.TV .overlap-3 {
+  position: absolute;
+  width: 340px;
+  height: 460px;
+  top: 119px;
+  left: 640px;
+}
+
+.TV .flag-of-the-united {
+  position: absolute;
+  width: 340px;
+  height: 219px;
+  top: 241px;
+  left: 0;
+  object-fit: cover;
+}
+
+
+
+.TV .img {
+  position: absolute;
+  width: 228px;
+  height: 243px;
+  top: 0;
+  left: 64px;
+}
+
+
+
+.TV .footer {
+  position: fixed;
+  width: 82px;
+  height: 25px;
+  top: 681px;
+  left: 600px;
+  
+  background-color: transparent;
+}
+
+
+
+
+
+.TV .bi-r-circle {
+  position: fixed;
+  width: 12px;
+  height: 12px;
+  top: 0;
+  left: 68px;
+  color: black;
+}
